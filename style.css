@@ -1,0 +1,49 @@
+
+* {
+    background: #222222;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+textarea {
+    margin: 1%;
+    height: 45%;
+    width: 97%;
+    margin-bottom: 0;
+    resize: none;
+    outline: none;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 3px;
+    color: #f0f0f0;
+}
+
+#input {
+    height: 35%;
+}
+
+button {
+    margin: 1%;
+    height: 7%;
+    width: 7%;
+    margin-bottom: 0;
+    margin-right: 0;
+    resize: none;
+    outline: none;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 3px;
+    color: #f0f0f0;
+    font-family: monospace;
+    cursor: pointer;
+    transition: .15s;
+}
+
+button:hover {
+    background: #f0f0f0;
+    color: #222222;
+    transition: .15s;
+}
